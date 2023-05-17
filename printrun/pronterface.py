@@ -921,8 +921,8 @@ class PronterWindow(MainWindow, pronsole.pronsole):
 
         description = _("Printrun is a pure Python 3D printing"
                         " (and other types of CNC) host software.")
-
-        description += "\n\n" + \
+        description += "\nModded by MRiscoC for Professional Firmware custom G-codes support\n"
+        description += "\n" + \
                        _("%.02fmm of filament have been extruded during prints") \
                        % self.settings.total_filament_used
 
